@@ -28,5 +28,14 @@ namespace Bakery.Tests
       int result = breadOrder.Quantity;
       Assert.AreEqual(breadQuantity, result);
     }
+
+    [TestMethod]
+    public void GetTotalPrice_ReturnsBreadOrderTotalPrice_Int()
+    {
+      int breadQuantity = 2;
+      Bread breadOrder = new Bread(breadQuantity);
+      int result = breadOrder.getTotalPrice();
+      Assert.AreEqual(10, result);
+    }
   }
 }
