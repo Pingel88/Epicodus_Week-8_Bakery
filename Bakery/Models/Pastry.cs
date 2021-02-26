@@ -6,5 +6,10 @@ namespace Bakery.Models
     {
       
     }
+
+    public static int GetPrice()
+    {
+      return 0;
+    }
   }
 }
