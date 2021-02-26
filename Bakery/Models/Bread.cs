@@ -17,7 +17,9 @@ namespace Bakery.Models
 
     public int GetTotalPrice()
     {
-      return _price * Quantity;
+      int breadSpecialOrders = Quantity / 3;
+      int breadRegularOrders = Quantity % 3;
+      return breadSpecialOrders * _price * 2 + breadRegularOrders * _price;
     }
   }
 }

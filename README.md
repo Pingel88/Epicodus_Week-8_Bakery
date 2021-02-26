@@ -41,7 +41,7 @@ ___
 | 06 | 3 pastries as an auto-implemented quantity property | `pastryOrder.Quantity` | 3 | ✅ |
 | 07 | Static method `breadOrder.getTotalPrice()` returns the total price | `new Bread(2)` | 10 | ✅ |
 | 08 | Static method `pastryOrder.getTotalPrice()` returns the total price | `new Pastry(2)` | 4 | ✅ |
-| 09 | Static method `breadOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Bread(6)` | 20 | ❌ |
+| 09 | Static method `breadOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Bread(6)` | 20 | ✅ |
 | 10 | Static method `pastryOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Pastry(9)` | 15 | ❌ |
 
 </details>
