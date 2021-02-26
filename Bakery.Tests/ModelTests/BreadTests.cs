@@ -34,7 +34,7 @@ namespace Bakery.Tests
     {
       int breadQuantity = 2;
       Bread breadOrder = new Bread(breadQuantity);
-      int result = breadOrder.getTotalPrice();
+      int result = breadOrder.GetTotalPrice();
       Assert.AreEqual(10, result);
     }
   }

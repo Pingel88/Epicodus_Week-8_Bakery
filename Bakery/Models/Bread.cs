@@ -14,5 +14,10 @@ namespace Bakery.Models
     {
       return Bread._price;
     }
+
+    public int GetTotalPrice()
+    {
+      return 0;
+    }
   }
 }
