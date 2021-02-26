@@ -17,7 +17,7 @@ ___
 
 ## 🔧 *Setup/Installation instructions:*
 #### 🌐 From the web:
-* Go to my GitHub repository, [https://github.com/Pingel88/Epicodus_Week-8_Bakery.git](https://github.com/Pingel88/Epicodus_Week-8_Bakery.git).
+* Go to the GitHub repository for this project: [https://github.com/Pingel88/Epicodus_Week-8_Bakery.git](https://github.com/Pingel88/Epicodus_Week-8_Bakery.git).
 * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
 
   <img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
@@ -42,7 +42,7 @@ ___
 | 07 | Static method `breadOrder.getTotalPrice()` returns the total price | `new Bread(2)` | 10 | ✅ |
 | 08 | Static method `pastryOrder.getTotalPrice()` returns the total price | `new Pastry(2)` | 4 | ✅ |
 | 09 | Static method `breadOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Bread(6)` | 20 | ✅ |
-| 10 | Static method `pastryOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Pastry(9)` | 15 | ❌ |
+| 10 | Static method `pastryOrder.getTotalPrice()` returns the total price and adjusts for specials | `new Pastry(10)` | 17 | ❌ |
 
 </details>
 
