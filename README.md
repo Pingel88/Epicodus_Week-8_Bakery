@@ -36,7 +36,7 @@ ___
 | 01 | Creates a new instance of bread | `new  Bread()` | Instance created | ✅ |
 | 02 | Creates a new instance of pastry | `new Pastry()` | Instance created | ✅ |
 | 03 | Bread has a static Price of 5 | `Bread.GetPrice()` | 5 | ✅ |
-| 04 | Pastry has a static Price of 2 | `Pastry.GetPrice()` | 2 | ❌ |
+| 04 | Pastry has a static Price of 2 | `Pastry.GetPrice()` | 2 | ✅ |
 | 05 | Bread has an auto-implemented quantity property | `userBread.Quantity = 2` | 2 | ❌ |
 | 06 | Pastry has an auto-implemented quantity property | `userPastry.Quantity = 3` | 3 | ❌ |
 | 07 | Static method Bread.getPrice returns the total price | 2 | 10 | ❌ |
