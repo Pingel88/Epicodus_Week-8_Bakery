@@ -10,7 +10,7 @@ namespace Bakery.Models
       Quantity = quantity;
     }
 
-    public static int GetPrice()
+    public static int GetIndividualPrice()
     {
       return Bread._price;
     }
