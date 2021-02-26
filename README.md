@@ -34,7 +34,7 @@ ___
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
 | 01 | Creates a new instance of bread | `new  Bread()` | Instance created | ✅ |
-| 02 | Creates a new instance of pastry | `new Pastry()` | Instance created | ❌ |
+| 02 | Creates a new instance of pastry | `new Pastry()` | Instance created | ✅ |
 | 03 | Bread has a static Price property of 5 | `Bread.Price` | 5 | ❌ |
 | 04 | Pastry has a static Price property of 2 | `Pastry.Price` | 2 | ❌ |
 | 05 | Bread has an auto-implemented quantity property | `userBread.Quantity = 2` | 2 | ❌ |
@@ -43,7 +43,6 @@ ___
 | 08 | Static method Pastry.getPrice returns the total price | 2 | 4 | ❌ |
 | 09 | Static method Bread.getPrice returns the total price and adjusts for specials | 6 | 20 | ❌ |
 | 10 | Static method Pastry.getPrice returns the total price and adjusts for specials | 6 | 20 | ❌ |
-| 11 |  |  |  | ✅ |
 
 </details>
 
