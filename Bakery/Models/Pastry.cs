@@ -2,9 +2,10 @@ namespace Bakery.Models
 {
   public class Pastry
   {
+    public int Quantity { get; set; }
     private static int _price = 2;
 
-    public Pastry()
+    public Pastry(int quantity)
     {
       
     }
