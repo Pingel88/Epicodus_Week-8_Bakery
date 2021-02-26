@@ -9,7 +9,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      Bread userBread = new Bread();
+      Bread userBread = new Bread(0);
       Assert.AreEqual(typeof(Bread), userBread.GetType());
     }
 
@@ -23,9 +23,9 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetQuantity_ReturnsBreadQuantity_Int()
     {
-      int breadQuantity = 2
+      int breadQuantity = 2;
       Bread userBread = new Bread(breadQuantity);
-      int result = userBread.GetQuantity;
+      int result = userBread.Quantity;
       Assert.AreEqual(breadQuantity, result);
     }
   }

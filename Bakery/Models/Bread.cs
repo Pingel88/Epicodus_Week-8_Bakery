@@ -2,11 +2,12 @@ namespace Bakery.Models
 {
   public class Bread
   {
+    public int Quantity { get; set; }
     private static int _price = 5;
 
-    public Bread()
+    public Bread(int quantity)
     {
-      
+  
     }
 
     public static int GetPrice()
