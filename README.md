@@ -38,7 +38,7 @@ ___
 | 03 | Bread has a static Price of 5 | `Bread.GetPrice()` | 5 | ✅ |
 | 04 | Pastry has a static Price of 2 | `Pastry.GetPrice()` | 2 | ✅ |
 | 05 | 2 loaves of bread as an auto-implemented property | `userBread.Quantity` | 2 | ✅ |
-| 06 | 3 pastries as an auto-implemented quantity property | `userPastry.Quantity` | 3 | ❌ |
+| 06 | 3 pastries as an auto-implemented quantity property | `userPastry.Quantity` | 3 | ✅ |
 | 07 | Static method Bread.getPrice returns the total price | 2 | 10 | ❌ |
 | 08 | Static method Pastry.getPrice returns the total price | 2 | 4 | ❌ |
 | 09 | Static method Bread.getPrice returns the total price and adjusts for specials | 6 | 20 | ❌ |
