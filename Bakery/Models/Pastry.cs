@@ -17,7 +17,7 @@ namespace Bakery.Models
 
     public int GetTotalPrice()
     {
-      return 0;
+      return _price * Quantity;
     }
   }
 }
