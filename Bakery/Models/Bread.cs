@@ -2,6 +2,8 @@ namespace Bakery.Models
 {
   public class Bread
   {
+    private static int _price = 5;
+
     public Bread()
     {
       
@@ -9,7 +11,7 @@ namespace Bakery.Models
 
     public static int GetPrice()
     {
-      return 0;
+      return Bread._price;
     }
   }
 }
