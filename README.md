@@ -33,7 +33,7 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
-| 01 | Creates a new instance of bread | `new  Bread()` | Instance created | ❌ |
+| 01 | Creates a new instance of bread | `new  Bread()` | Instance created | ✅ |
 | 02 | Creates a new instance of pastry | `new Pastry()` | Instance created | ❌ |
 | 03 | Bread has a static Price property of 5 | `Bread.Price` | 5 | ❌ |
 | 04 | Pastry has a static Price property of 2 | `Pastry.Price` | 2 | ❌ |
