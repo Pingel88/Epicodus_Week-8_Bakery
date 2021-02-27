@@ -27,7 +27,7 @@ namespace Bakery.Models
 
     public static int GetSpecialPrice()
     {
-      return 0;
+      return Pastry._specialPrice;
     }
   }
 }
