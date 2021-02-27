@@ -14,10 +14,17 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void GetPrice_ReturnsPastryIndividualPrice_Int()
+    public void GetIndividualPrice_ReturnsPastryIndividualPrice_Int()
     {
       int result = Pastry.GetIndividualPrice();
       Assert.AreEqual(2, result);
+    }
+
+    [TestMethod]
+    public void GetSpecialPrice_ReturnsPastrySpecialPrice_Int()
+    {
+      int result = Pastry.GetSpecialPrice();
+      Assert.AreEqual(5, result);
     }
 
     [TestMethod]
