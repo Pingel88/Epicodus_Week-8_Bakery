@@ -25,5 +25,10 @@ namespace Bakery.Models
     {
       return Bread._price;
     }
+
+    public static int GetSpecialPrice()
+    {
+      return 0;
+    }
   }
 }
