@@ -34,7 +34,7 @@ namespace Bakery.Tests
     {
       int pastryQuantity = 2;
       Pastry pastryOrder = new Pastry(pastryQuantity);
-      int result = pastryOrder.GetTotalPrice();
+      double result = pastryOrder.GetTotalPrice();
       Assert.AreEqual(4, result);
     }
 
@@ -43,7 +43,7 @@ namespace Bakery.Tests
     {
       int pastryQuantity = 10;
       Pastry pastryOrder = new Pastry(pastryQuantity);
-      int result = pastryOrder.GetTotalPrice();
+      double result = pastryOrder.GetTotalPrice();
       Assert.AreEqual(17, result);
     }
   }
