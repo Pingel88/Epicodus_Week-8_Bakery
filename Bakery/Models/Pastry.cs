@@ -19,10 +19,15 @@ namespace Bakery.Models
     }
 
     //these only exist to get the private field for testing
-    
+
     public static int GetIndividualPrice()
     {
       return Pastry._price;
+    }
+
+    public static int GetSpecialPrice()
+    {
+      return 0;
     }
   }
 }
