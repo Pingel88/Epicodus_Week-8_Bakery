@@ -11,7 +11,7 @@ namespace Bakery.Models
       Quantity = quantity;
     }
 
-    public double GetTotalPrice()
+    public int GetTotalPrice()
     {
       int pastrySpecialOrders = Quantity / 3;
       int pastryRegularOrders = Quantity % 3;
